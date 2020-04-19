@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb119642ccc8074292d6357ecb64f54, type: 3}
+  m_Name: Raiding 2
+  m_EditorClassIdentifier: 
+  name: Raiding
+  costs:
+  - amount: 8
+    resourceType: 9
+  - amount: 3
+    resourceType: 10
+  - amount: 15
+    resourceType: 3
+  effects:
+  - effectType: 0
+    resourceType: 3
+    resourceAmount: 40
+  - effectType: 0
+    resourceType: 8
+    resourceAmount: 4
+  unlockRequirement: 5
+  level: 2
+  isRitual: 0
+  upgrade: {fileID: 11400000, guid: 19e46eeb960b93349af302114797b22a, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb119642ccc8074292d6357ecb64f54, type: 3}
+  m_Name: Food Depot 1
+  m_EditorClassIdentifier: 
+  name: Food Depot
+  costs:
+  - amount: 3
+    resourceType: 1
+  - amount: 1
+    resourceType: 7
+  effects:
+  - effectType: 0
+    resourceType: 5
+    resourceAmount: 4
+  unlockRequirement: 1
+  level: 1
+  isRitual: 0
+  upgrade: {fileID: 11400000, guid: 4ef47839e7c89c14782e5e5d88f12a6b, type: 2}
